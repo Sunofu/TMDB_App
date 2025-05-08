@@ -10,11 +10,12 @@
   <div class="container">
     <h1>Поиск фильмов</h1>
     <form id="searchForm">
-      <input type="text" id="searchInput" placeholder="Введите название фильма" required />
+      <input type="text" id="searchInput" maxlength="255" placeholder="Введите название фильма" required />
       <button type="submit">Найти</button>
     </form>
     <div id="results"></div>
   </div>
+  <div id="pagination" class="pagination"></div>
   <script type="module" src="./script.js"></script>
 </body>
 </html>
